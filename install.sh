@@ -344,7 +344,7 @@ install_type() {
     opensuse-tumbleweed|opensuse)
         echo "zypper"
         ;;
-    debian|ubuntu|elementary|raspbian|linuxmint)
+    debian|ubuntu|elementary|raspbian|linuxmint|pop)
         echo "deb"
         ;;
     arch|manjaro)
